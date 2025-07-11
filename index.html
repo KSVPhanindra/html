@@ -8,35 +8,39 @@
 </head>
 
 <body>
-    <!-- Header Section -->
+    <!-- Header -->
     <header>
         <h1>HTML Practice Page</h1>
-        <p>This page is for practicing various HTML elements</p>
+        <p>This page demonstrates all major HTML tags for practice.</p>
     </header>
 
-    <!-- Navigation -->
+    <hr>
+
+    <!-- Navigation Links -->
     <nav>
+        <h2>Quick Links</h2>
         <ul>
-            <li><a href="#table">Table</a></li>
-            <li><a href="#form">Form</a></li>
-            <li><a href="#list">List</a></li>
-            <li><a href="#media">Media</a></li>
-            <li><a href="#iframe">Iframe</a></li>
+            <li><a href="#tables">Go to Table</a></li>
+            <li><a href="#forms">Go to Form</a></li>
+            <li><a href="#lists">Go to Lists</a></li>
+            <li><a href="#media">Go to Media</a></li>
+            <li><a href="#iframe">Go to Iframe</a></li>
+            <li><a href="mailto:ksvphanindra@gmail.com">Contact Me</a></li>
         </ul>
     </nav>
 
     <hr>
 
     <!-- Table Section -->
-    <section id="table">
+    <section id="tables">
         <h2>Sample Table</h2>
-        <table border="1" cellpadding="10" cellspacing="0">
+        <table border="1" cellpadding="10">
             <thead>
                 <tr>
-                    <th>Sl.No</th>
+                    <th>S.No</th>
                     <th>Name</th>
                     <th>Subject</th>
-                    <th>Marks</th>
+                    <th>Score</th>
                 </tr>
             </thead>
             <tbody>
@@ -52,12 +56,6 @@
                     <td>CSS</td>
                     <td>90</td>
                 </tr>
-                <tr>
-                    <td>3</td>
-                    <td>Keerthi</td>
-                    <td>JavaScript</td>
-                    <td>88</td>
-                </tr>
             </tbody>
         </table>
     </section>
@@ -65,17 +63,17 @@
     <hr>
 
     <!-- Form Section -->
-    <section id="form">
+    <section id="forms">
         <h2>Sample Form</h2>
-        <form action="#" method="POST">
+        <form>
             <label for="name">Name:</label>
-            <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+            <input type="text" id="name" name="name" placeholder="Enter your name"><br><br>
 
             <label for="email">Email:</label>
-            <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+            <input type="email" id="email" name="email" placeholder="Enter your email"><br><br>
 
             <label for="message">Message:</label><br>
-            <textarea id="message" name="message" rows="4" cols="40" placeholder="Your message"></textarea><br><br>
+            <textarea id="message" name="message" rows="4" cols="40" placeholder="Your message here"></textarea><br><br>
 
             <input type="submit" value="Submit">
             <input type="reset" value="Reset">
@@ -84,8 +82,8 @@
 
     <hr>
 
-    <!-- List Section -->
-    <section id="list">
+    <!-- Lists Section -->
+    <section id="lists">
         <h2>Sample Lists</h2>
 
         <h3>Ordered List</h3>
@@ -117,38 +115,17 @@
 
     <!-- Media Section -->
     <section id="media">
-        <h2>Sample Media</h2>
-        <h3>Image</h3>
-        <img src="https://via.placeholder.com/300" alt="Sample Image" width="300" height="200">
+        <h2>Media Elements</h2>
 
-        <h3>Audio</h3>
+        <h3>Sample Image</h3>
+        <img src="https://via.placeholder.com/400x250.png?text=Sample+Image" alt="Sample Image" width="400" height="250">
+
+        <h3>Sample Audio</h3>
         <audio controls>
-            <source src="sample.mp3" type="audio/mpeg">
+            <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
             Your browser does not support the audio element.
         </audio>
 
-        <h3>Video</h3>
-        <video width="400" controls>
-            <source src="sample.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-    </section>
-
-    <hr>
-
-    <!-- Iframe Section -->
-    <section id="iframe">
-        <h2>Sample Iframe</h2>
-        <iframe src="https://www.wikipedia.org" width="600" height="400" title="Wikipedia"></iframe>
-    </section>
-
-    <hr>
-
-    <!-- Footer Section -->
-    <footer>
-        <p>&copy; 2025 HTML Practice Page | <a href="mailto:practice@html.com">Contact Us</a></p>
-    </footer>
-
-</body>
-
-</html>
+        <h3>Sample Video</h3>
+        <video width="500" height="300" controls>
+            <source src="https://www.w3sc
