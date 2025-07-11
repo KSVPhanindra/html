@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Practice Page</title>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>HTML Practice Page</h1>
+        <p>This page is for practicing various HTML elements</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#table">Table</a></li>
+            <li><a href="#form">Form</a></li>
+            <li><a href="#list">List</a></li>
+            <li><a href="#media">Media</a></li>
+            <li><a href="#iframe">Iframe</a></li>
+        </ul>
+    </nav>
+
+    <hr>
+
+    <!-- Table Section -->
+    <section id="table">
+        <h2>Sample Table</h2>
+        <table border="1" cellpadding="10" cellspacing="0">
+            <thead>
+                <tr>
+                    <th>Sl.No</th>
+                    <th>Name</th>
+                    <th>Subject</th>
+                    <th>Marks</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Phani</td>
+                    <td>HTML</td>
+                    <td>95</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Ravi</td>
+                    <td>CSS</td>
+                    <td>90</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Keerthi</td>
+                    <td>JavaScript</td>
+                    <td>88</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <hr>
+
+    <!-- Form Section -->
+    <section id="form">
+        <h2>Sample Form</h2>
+        <form action="#" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="40" placeholder="Your message"></textarea><br><br>
+
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </form>
+    </section>
+
+    <hr>
+
+    <!-- List Section -->
+    <section id="list">
+        <h2>Sample Lists</h2>
+
+        <h3>Ordered List</h3>
+        <ol>
+            <li>Learn HTML</li>
+            <li>Learn CSS</li>
+            <li>Learn JavaScript</li>
+        </ol>
+
+        <h3>Unordered List</h3>
+        <ul>
+            <li>Apples</li>
+            <li>Bananas</li>
+            <li>Oranges</li>
+        </ul>
+
+        <h3>Definition List</h3>
+        <dl>
+            <dt>HTML</dt>
+            <dd>HyperText Markup Language</dd>
+            <dt>CSS</dt>
+            <dd>Cascading Style Sheets</dd>
+            <dt>JS</dt>
+            <dd>JavaScript</dd>
+        </dl>
+    </section>
+
+    <hr>
+
+    <!-- Media Section -->
+    <section id="media">
+        <h2>Sample Media</h2>
+        <h3>Image</h3>
+        <img src="https://via.placeholder.com/300" alt="Sample Image" width="300" height="200">
+
+        <h3>Audio</h3>
+        <audio controls>
+            <source src="sample.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+
+        <h3>Video</h3>
+        <video width="400" controls>
+            <source src="sample.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+
+    <hr>
+
+    <!-- Iframe Section -->
+    <section id="iframe">
+        <h2>Sample Iframe</h2>
+        <iframe src="https://www.wikipedia.org" width="600" height="400" title="Wikipedia"></iframe>
+    </section>
+
+    <hr>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 HTML Practice Page | <a href="mailto:practice@html.com">Contact Us</a></p>
+    </footer>
+
+</body>
+
+</html>
